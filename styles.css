@@ -4,6 +4,7 @@ body {
    font-size: 17px;
 }
 
+
 .container {
    max-width: 1000px;
 }
@@ -29,24 +30,35 @@ h2 {
 }
 
 .full-page-background .circle {
+   width: 200px;
+   height: 200px;
    position: absolute;
    border-radius: 50%;
-   opacity: 0.5;
-   filter: blur(40px);
-   animation: moveCircles 10s infinite ease-in-out;
+   opacity: 0.1;
+   filter: blur(100px) saturate(5);
+   animation: moveCircles 30s infinite ease-in-out;
+
 }
 
 /* Animations des cercles */
 @keyframes moveCircles {
    0% {
-      transform: translate(0, 0);
+      transform: translate(0, 0) scale(1);
+   }
+
+   25% {
+      transform: translate(300px, 200px) scale(1.5);
    }
 
    50% {
-      transform: translate(500px, -500px);
+      transform: translate(-300px, -200px) scale(2);
+   }
+
+   75% {
+      transform: translate(500px, -300px) scale(1.5);
    }
 
    100% {
-      transform: translate(0, 0);
+      transform: translate(0, 0) scale(1);
    }
 }
