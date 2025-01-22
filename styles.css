@@ -4,6 +4,13 @@ body {
    font-size: 17px;
 }
 
+li {
+   list-style-type: circle;
+}
+
+li.nav-item {
+   list-style-type: none;
+}
 
 /* .container {
    max-width: 1000px;
@@ -16,6 +23,7 @@ body {
 h2 {
    font-size: 17px;
    text-transform: uppercase;
+   margin-bottom: 1.5rem;
 }
 
 /* Arrière-plan animé sur toute la page */
