@@ -4,8 +4,16 @@ body {
    font-size: 17px;
 }
 
+a {
+   color: black;
+}
+
 li {
    list-style-type: circle;
+}
+
+section {
+   margin-bottom: 6rem;
 }
 
 li.nav-item {
@@ -24,6 +32,21 @@ h2 {
    font-size: 17px;
    text-transform: uppercase;
    margin-bottom: 1.5rem;
+}
+
+h2.h2-over {
+   text-transform: none;
+   font-size: 25px;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+@media (max-width: 800px) {
+   h2.h2-over {
+      font-size: 17px;
+      white-space: normal;
+   }
 }
 
 /* Arrière-plan animé sur toute la page */
