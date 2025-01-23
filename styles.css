@@ -63,4 +63,10 @@ a.card:hover {
       font-size: 17px;
       white-space: normal;
    }
+
+   .navbar li {
+      margin-left: 0.5rem !important;
+      margin-right: 0.5rem !important;
+      font-size: 14px;
+   }
 }
