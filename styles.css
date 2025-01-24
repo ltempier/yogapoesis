@@ -89,7 +89,8 @@ a.card:hover {
    text-decoration: none;
 }
 
-.contact:hover {
+.contact:hover,
+.contact:focus {
    text-decoration: underline;
 }
 
