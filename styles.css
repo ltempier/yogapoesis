@@ -2,7 +2,38 @@ body {
    font-family: 'Heiti SC';
    font-weight: lighter;
    font-size: 17px;
+   background-color: white;
 }
+
+.bg-beige {
+   background-color: #F7EFEE;
+   outline: 1.5rem solid #F7EFEE;
+   /* padding-left: 1.5rem;
+   padding-right: 1.5rem;
+   padding-bottom: 1.5rem; */
+}
+
+.mb-8 {
+   margin-bottom: 3rem;
+}
+
+
+.bg-translucide {
+   background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Barre de navigation */
+.navbar-sticky {
+   z-index: 8;
+   position: sticky;
+   top: 0;
+}
+
+
+section {
+   padding-top: 80px !important;
+}
+
 
 a {
    color: black;
@@ -26,7 +57,7 @@ li.nav-item {
 }
 
 h2 {
-   font-size: 17px;
+   font-size: 22px;
    text-transform: uppercase;
    text-transform: uppercase;
    margin-bottom: 1.5rem;
@@ -41,16 +72,33 @@ h2.h2-over {
 }
 
 a.card {
+
+   border-radius: 0;
    cursor: pointer;
    text-decoration: none !important;
+   background-color: rgba(255, 255, 255, 0.5);
 }
 
 a.card:hover {
-   background-color: rgb(240, 240, 240);
+   background-color: rgba(255, 255, 255, 1);
    color: black;
 }
 
+.contact {
+   color: #DB423E;
+   text-decoration: none;
+}
+
+.contact:hover {
+   text-decoration: underline;
+}
+
 @media (max-width: 800px) {
+
+   section {
+      padding-top: 60px !important;
+   }
+
    h2.h2-over {
       font-size: 17px;
       white-space: normal;
