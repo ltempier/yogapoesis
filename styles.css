@@ -89,16 +89,6 @@ a.card:hover {
    text-decoration: none;
 }
 
-.contact[href^="tel"] {
-   color: #DB423E;
-   text-decoration: none;
-}
-
-.contact[href^="tel"]:hover,
-.contact[href^="tel"]:focus {
-   color: #b33632;
-}
-
 .contact:hover {
    text-decoration: underline;
 }
