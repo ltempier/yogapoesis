@@ -8,9 +8,6 @@ body {
 .bg-beige {
    background-color: #F7EFEE;
    outline: 1.5rem solid #F7EFEE;
-   /* padding-left: 1.5rem;
-   padding-right: 1.5rem;
-   padding-bottom: 1.5rem; */
 }
 
 .mb-8 {
@@ -109,6 +106,7 @@ a.card:hover {
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
       font-size: 14px;
+      font-weight: bold;
    }
 }
 
