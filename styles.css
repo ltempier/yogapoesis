@@ -110,3 +110,35 @@ a.card:hover {
       font-size: 14px;
    }
 }
+
+#myBtn {
+   display: none;
+   /* Hidden by default */
+   position: fixed;
+   /* Fixed/sticky position */
+   bottom: 20px;
+   /* Place the button at the bottom of the page */
+   right: 30px;
+   /* Place the button 30px from the right */
+   z-index: 99;
+   /* Make sure it does not overlap */
+   border: 0;
+   /* Remove borders */
+   outline: none;
+   /* Remove outline */
+   background-color: #F7EFEE;
+   /* Set a background color */
+   color: black;
+   /* Text color */
+   cursor: pointer;
+   border-radius: 50%;
+   font-size: 18px;
+   width: 50px;
+   height: 50px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#myBtn:hover {
+   scale: 1.2;
+   /* Add a dark-grey background on hover */
+}
