@@ -89,6 +89,19 @@ a.card:hover {
    text-decoration: none;
 }
 
+contact[href^="tel"] {
+   color: #DB423E;
+   /* Couleur du texte */
+   text-decoration: none;
+   /* Supprime le soulignement */
+}
+
+contact[href^="tel"]:hover,
+contact[href^="tel"]:focus {
+   color: #DB423E;
+   /* Couleur au survol ou focus */
+}
+
 .contact:hover {
    text-decoration: underline;
 }
