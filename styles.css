@@ -12,7 +12,9 @@ body {
 
 .bg-green {
    color: black !important;
-   background-color: #CDFFB9;
+   /* background-color: #CDFFB9; */
+   background-color: #4EF0A1;
+
    padding-left: 5px;
    padding-right: 5px;
    padding-top: 5px;
@@ -129,7 +131,6 @@ a.card:hover {
    right: 30px;
    z-index: 99;
    outline: none;
-   background-color: #CDFFB9;
    color: black;
    cursor: pointer;
    border-radius: 50%;
