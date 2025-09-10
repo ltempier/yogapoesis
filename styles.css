@@ -144,3 +144,20 @@ a.card:hover {
    scale: 1.2;
    /* Add a dark-grey background on hover */
 }
+
+.flashy-highlight {
+   color: black !important;
+   background-color: #4EF0A1;
+   padding: 5px 8px 2px 8px;
+   border: 1px solid black;
+   border-radius: 6px;
+   display: inline-block;
+   font-weight: bold;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.flashy-highlight:hover {
+   transform: scale(1.05);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
